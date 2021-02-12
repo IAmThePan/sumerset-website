@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resident Portal on Summerset Apartments in Florida</title>
-    <link>https://brothersaloof.com/residents/</link>
+    <link>https://iamthepan.github.io/summerset-website/residents/</link>
     <description>Recent content in Resident Portal on Summerset Apartments in Florida</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jan 2021 09:51:11 -0500</lastBuildDate>
     
-	<atom:link href="https://brothersaloof.com/residents/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://iamthepan.github.io/summerset-website/residents/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
