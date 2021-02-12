@@ -1,0 +1,3 @@
+[submodule "themes/tricky-triangles"]
+	path = themes/tricky-triangles
+	url = git@github.com:IAmThePan/tricky-triangles.git
