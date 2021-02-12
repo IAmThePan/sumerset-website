@@ -1,0 +1,16 @@
+baseURL = "https://brothersaloof.com"
+languageCode = "en-us"
+title = "Summerset Apartments in Florida"
+theme = "tricky-triangles"
+publishDir = "docs"
+
+[params]
+  image = "images/Summerset.jpg"
+  description = "Welcome to The Summerset Apartments...."
+[params.property]
+  name = "Summerset Apartments"
+  phone = "ph.one.number"
+  email = "tbd@gmail.com"
+[params.property.address]
+  line1 = "address line 1"
+  line2 = "address line 2"
