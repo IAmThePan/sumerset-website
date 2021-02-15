@@ -12,7 +12,7 @@ menu:
 
 {{< miniGallery name="FloorPlanGallery" >}}
 
-Each residence at Market Station has its own front door for maximum privacy
-and convenience, so you will never have to walk down a long corridor.
+Each residence at Sumerset has its own front door for maximum privacy and
+convenience, so you will never have to walk down a long corridor.
 
 {{< button text="View Current Availability" theme="Dark" link="/apply/" >}}

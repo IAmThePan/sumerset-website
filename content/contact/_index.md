@@ -8,10 +8,10 @@ menu:
 ---
 
 # Contact Us { class="text-center center-next" }
-*Our leasing office is open Monday- Friday, 8:30am to 5:30pm and Saturday, 10:00am to 4:00pm*
+*Our leasing office is open Monday-Friday, 9:00am to 5:30pm.*
 
 ### By Phone: [{{< siteParams "property.phone" >}}](tel:{{< siteParams "property.phone" >}}) { class="text-left" }
 ### By Email: [{{< siteParams "property.email" >}}](mailto:{{< siteParams "property.email" >}}) { class="text-left" }
-### Address: [{{< siteParams "property.address" >}}](https://www.google.com/maps?ll=35.192898,-78.961683&z=14&t=m&hl=en-US&gl=US&mapclient=embed&cid=17087471354080958223) { class="text-left" }
+### Address: [{{< siteParams "property.address" >}}](https://www.google.com/maps?ll=28.606959,-81.396446&z=14&t=m&hl=en-US&gl=US&mapclient=embed&cid=16839735410368959970) { class="text-left" }
 
-{{< iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDU3vr9H2kUSnkmkvgWmxSNNl60NbV8U9Q&q=The%20Cliffs%20at%20Waterford%20Spring%20Lake%20NC&zoom=14" height="500px" width="100%" >}}
+{{< iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDU3vr9H2kUSnkmkvgWmxSNNl60NbV8U9Q&q=Sumerset%20Apartments%20Orlando%20Florida&zoom=14" height="500px" width="100%" >}}

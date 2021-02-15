@@ -10,22 +10,20 @@ menu:
 ---
 
 #### Community { class="Amenities__SectionTitle no-top-margin" }
-- **Lush landscaped grounds** & tall shade trees
-- **Business center** with high-speed internet
-- **Double-bay car care center** with vacuum
-- **Newly renovated clubhouse** with fitness center & business center
-- **24-hour state-of-the-art fitness center** with cardio & weight machines
+- **Large Courtyand Areas**
+- **Business Center** with high-speed internet
+- **Car Wash**
+- **Playground**
 - **Revitalizing pool** with expansive sundeck
-- **Multiple laundry facilities** throughout the community
-- **Leash-free bark park** for your furry friends
-- **Grill station** with granite countertops & dual gas grills
+- **Laundry facilities** centrally located
+- **Grilling Area** covered and with with picnic tables
 
 ***
 
 #### Apartments { class="Amenities__SectionTitle"}
-- **Studio** - Our studios have a separate bedroom nook, allowing you to differentiate your living room from your bedroom area for maximum privacy.
-- **1BR** - Our one-bedroom apartments give you lots of storage and multiple closets throughout the apartment.
-- **2BR** - Our two-bedrooms have a split-bedroom floor plan to maximize space and comfort.
-- **Bathrooms** - All of our bathrooms have wide vanities & lots of lighting.
-- **Full kitchens** - Our kitchens come with a complete appliance package --refrigerator, dishwasher & range - and with plenty of cabinet space.
-- **Living rooms** - Our living rooms have plush carpeting & large windows that bring in natural sunlight.
+- **1BR** – Our one-bedroom apartments are spacious with multiple closets
+- **2BR** – Our two-bedrooms have lots of room to spread out.
+- **3BR** – Plenty of room for the whole family.
+- **Bathrooms** – All of our bathrooms have wide vanities & lots of lighting.
+- **Full kitchens** – Our kitchens come with a complete appliance package –refrigerator, dishwasher & range - and with plenty of cabinet space.
+- **Living rooms** – Our living rooms have plush carpeting & large windows that bring in natural sunlight.

@@ -1,16 +1,16 @@
-baseURL = "https://iamthepan.github.io/summerset-website/"
+baseURL = "https://example.com/"
 languageCode = "en-us"
-title = "Summerset Apartments in Florida"
+title = "Sumerset Apartments Orlando, FL"
 theme = "tricky-triangles"
 publishDir = "docs"
 
 [params]
-  image = "images/Summerset.jpg"
-  description = "Welcome to The Summerset Apartments...."
+  image = "images/Sumerset.jpg"
+  description = "Welcome to Sumerset Apartments, space aparatments, affordably priced, conveniently located"
 [params.property]
-  name = "Summerset Apartments"
-  phone = "ph.one.number"
-  email = "tbd@gmail.com"
+  name = "Sumerset Apartments"
+  phone = "407.645.0787"
+  email = "sumersetapts@gmail.com"
 [params.property.address]
-  line1 = "address line 1"
-  line2 = "address line 2"
+  line1 = "1051 Lee Road"
+  line2 = "Orlando, Florida 32810"
