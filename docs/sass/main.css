@@ -267,13 +267,18 @@ a {
   margin-top: 0; }
 
 /* Page Specific CSS */
-.HomePage__BannerImage {
+.HomePage__BannerImage,
+.HomePage__Logo {
   margin: 1em 0; }
 
 .HomePage__BannerImage img {
   height: 500px;
   width: 100%;
   object-fit: cover; }
+
+.HomePage__Logo img {
+  width: 100%;
+  object-fit: contain; }
 
 .HelpSection ~ p {
   margin: 0.75em 0; }
@@ -305,7 +310,7 @@ body {
   right: 0;
   height: 100vh;
   width: 0px;
-  background-color: #006a46;
+  background-color: #0b6947;
   transition: width 0.2s linear; }
   .SidebarNavigation .SidebarNavigation__Closer {
     display: none;
@@ -328,13 +333,13 @@ header {
   padding: 20px 0;
   width: 100vw;
   color: #f9f6e7;
-  background-color: #006a46; }
+  background-color: #0b6947; }
   header.Header--Long {
     height: 325px;
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(0, 106, 70, 0.2); }
+    background-color: rgba(11, 105, 71, 0.2); }
   header .HeaderContent {
     display: flex;
     justify-content: space-between;
@@ -351,7 +356,7 @@ header {
         text-align: center;
         letter-spacing: 2px;
         color: #f9f6e7;
-        text-shadow: 1px 1px #006a46;
+        text-shadow: 1px 1px #0b6947;
         margin: 0;
         padding-top: 0;
         padding-bottom: 0; }
@@ -411,7 +416,7 @@ footer {
   font-family: 'Nunito', sans-serif;
   margin-top: 4em;
   padding: 2em;
-  background-color: #006a46; }
+  background-color: #0b6947; }
 
 .FooterContent {
   max-width: 1023px;
@@ -463,7 +468,7 @@ footer {
 
 .SideMenu .SideMenu__Page:hover,
 .SideMenu .SideMenu__Page.SideMenu--Active {
-  color: #006a46; }
+  color: #0b6947; }
 
 .SideMenu .SideMenu__CollapseInput,
 .SideMenu .SideMenu__CollapseLabel,
@@ -500,7 +505,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0;
     color: #cecece;
-    text-shadow: 1px 1px #006a46;
+    text-shadow: 1px 1px #0b6947;
     margin: 0;
     padding: 0.5em 0.75em;
     white-space: nowrap;
@@ -546,7 +551,7 @@ footer {
     max-height: 0;
     overflow: hidden;
     color: rgba(255, 255, 255, 0);
-    background-color: #006a46;
+    background-color: #0b6947;
     line-height: 2em;
     transition: max-height 0.2s linear; }
   .Navigation.NavigationHeader .Navigation__LinkContainer .NavigationHeader__Child {
@@ -585,7 +590,7 @@ footer {
 .Button.Button--Dark {
   padding: 1em 2em;
   color: #cecece;
-  background-color: #006a46;
+  background-color: #0b6947;
   font-size: 14px;
   font-weight: 600;
   transition: all 0.2s linear; }

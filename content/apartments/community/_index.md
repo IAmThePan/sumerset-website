@@ -1,5 +1,5 @@
 ---
-title: "Amenities"
+title: "Community"
 date: 2021-01-04T09:51:11-05:00
 menu:
   header:
@@ -8,8 +8,12 @@ menu:
   apartments:
     weight: 200
 ---
+#### Community Layout { class="Amenities__SectionTitle no-top-margin" }
+{{< figure src="/images/sumerset_site_plan.png" alt="Sumerset Site Plan" class="HomePage__BannerImage" >}}
 
-#### Community { class="Amenities__SectionTitle no-top-margin" }
+***
+
+#### Community Amenities { class="Amenities__SectionTitle" }
 - **Large Courtyand Areas**
 - **Business Center** with high-speed internet
 - **Car Wash**
@@ -20,7 +24,7 @@ menu:
 
 ***
 
-#### Apartments { class="Amenities__SectionTitle"}
+#### Apartment Amenities { class="Amenities__SectionTitle"}
 - **1BR** – Our one-bedroom apartments are spacious with multiple closets
 - **2BR** – Our two-bedrooms have lots of room to spread out.
 - **3BR** – Plenty of room for the whole family.
