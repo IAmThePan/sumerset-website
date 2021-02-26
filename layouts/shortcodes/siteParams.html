@@ -1,0 +1,13 @@
+{{ $currentPage := . }}
+{{- with .Get 0 }}
+  {{- if eq "property.address" . }}
+    {{- with $currentPage.Site.Params.property.address.line1 }}{{ . }}{{- end }}
+    {{- with $currentPage.Site.Params.property.address.line2 }}, {{ . }}{{- end }}
+  {{- else if eq "property.phone" . }}
+    {{- with $currentPage.Site.Params.property.phone }}{{ . }}{{- end }}
+  {{- else if eq "property.email" . }}
+    {{- with $currentPage.Site.Params.property.email }}{{ . }}{{- end }}
+  {{- else }}
+    Site Param not recognized
+  {{- end }}
+{{- end }}

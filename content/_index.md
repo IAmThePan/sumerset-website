@@ -7,7 +7,7 @@ menu:
     weight: 100
 ---
 
-{{< figure src="/images/sumerset_logo.png" alt="Sumerset Logo" class="HomePage__Logo" >}}
+{{< figure src="/images/sumerset_logo.png" alt="Sumerset Logo" class="FigureImage__Logo" >}}
 
 {{< button text="View Current Availability" theme="Dark" link="/apply/" >}}
 
@@ -21,7 +21,7 @@ located on Lee Road with easy access to shopping and the entire Orlando area. So
 whether your household needs a one-bedroom, two-bedroom or three-bedroom apartment,
 stop by and check out everything Sumerset has to offer. You’ll be glad you did.
 
-{{< figure src="/images/Sumerset.jpg" alt="Sumerset Apartments" class="HomePage__BannerImage" >}}
+{{< figure src="/images/Sumerset.jpg" alt="Sumerset Apartments" class="FigureImage__Banner" >}}
 
 ***
 
