@@ -193,7 +193,12 @@
 </div>
 
 <div class="MainContent text-center">
-        <div class="MiniGallery">
+        
+  
+  <style>.MiniGallery{display:flex;flex-wrap:wrap;justify-content:space-between}.MiniGallery__Item{flex:1 0 26%;margin:0 .5em 1em}.MiniGallery__Input{position:absolute;top:0;left:0;height:0;width:0;opacity:0;pointer-events:none}.MiniGallery__Label{display:block;padding:.25em}.MiniGallery__Thumbnail{height:125px}.MiniGallery__ThumbnailCaption{text-align:center;font-weight:600}.MiniGallery__FullSize{position:fixed;top:0;bottom:0;left:0;right:0;display:none;align-items:center;justify-content:center;background-color:rgba(249,246,231,.8)}.MiniGallery input:checked~.MiniGallery__FullSize{display:flex}.MiniGallery__FullSize img{max-height:96vh;max-width:96vw}.MiniGallery__Close{position:fixed;display:flex;justify-content:center;align-items:center;top:2vh;right:2vw;height:30px;width:30px;cursor:pointer}.MiniGallery__Close:before,.MiniGallery__Close:after{content:"";position:absolute;flex-shrink:0;height:2px;width:30px;background-color:#5c755e;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-ms-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear}.MiniGallery__Close:hover:before,.MiniGallery__Close:hover:after{background-color:#262626}.MiniGallery__Close:before{transform:rotate(45deg)}.MiniGallery__Close:after{transform:rotate(135deg)}@media(max-width:940px){.MiniGallery .MiniGallery__Item{flex-basis:51%}}</style>
+
+
+<div class="MiniGallery">
   
   
     
@@ -207,7 +212,7 @@
         </label>
         <div class="MiniGallery__FullSize">
           <img src="/apartments/floorplans/1.1%20Bedroom%20%E2%80%93%201%20Bathroom.png" />
-          <label for="MiniGallery__FloorPlanGallery__Checkbox__0" class="Gallery__Close"></label>
+          <label for="MiniGallery__FloorPlanGallery__Checkbox__0" class="MiniGallery__Close"></label>
         </div>
       </div>
     
@@ -221,7 +226,7 @@
         </label>
         <div class="MiniGallery__FullSize">
           <img src="/apartments/floorplans/2.2%20Bedroom%20%E2%80%93%202%20Bathroom.png" />
-          <label for="MiniGallery__FloorPlanGallery__Checkbox__1" class="Gallery__Close"></label>
+          <label for="MiniGallery__FloorPlanGallery__Checkbox__1" class="MiniGallery__Close"></label>
         </div>
       </div>
     
@@ -230,26 +235,12 @@
       <div class="MiniGallery__Item">
         <input type="checkbox" id="MiniGallery__FloorPlanGallery__Checkbox__2" name="MiniGallery__FloorPlanGallery" class="MiniGallery__Input" />
         <label for="MiniGallery__FloorPlanGallery__Checkbox__2" class="MiniGallery__Label">
-          <img class="MiniGallery__Thumbnail" src='/apartments/floorplans/3.3%20Bedroom%20%28small%29%20%E2%80%93%202%20Bathroom_hu5a9c3e3c60a502e25466b02419f231ef_452954_0x300_resize_box_2.png' />
-          <p class="MiniGallery__ThumbnailCaption">3 Bedroom (small) – 2 Bathroom</p>
+          <img class="MiniGallery__Thumbnail" src='/apartments/floorplans/3.3%20Bedroom%20%E2%80%93%202%20Bathroom_hu9ad09d2652f0647ec93e9df0ef11457b_1152490_0x300_resize_box_2.png' />
+          <p class="MiniGallery__ThumbnailCaption">3 Bedroom – 2 Bathroom</p>
         </label>
         <div class="MiniGallery__FullSize">
-          <img src="/apartments/floorplans/3.3%20Bedroom%20%28small%29%20%E2%80%93%202%20Bathroom.png" />
-          <label for="MiniGallery__FloorPlanGallery__Checkbox__2" class="Gallery__Close"></label>
-        </div>
-      </div>
-    
-      
-
-      <div class="MiniGallery__Item">
-        <input type="checkbox" id="MiniGallery__FloorPlanGallery__Checkbox__3" name="MiniGallery__FloorPlanGallery" class="MiniGallery__Input" />
-        <label for="MiniGallery__FloorPlanGallery__Checkbox__3" class="MiniGallery__Label">
-          <img class="MiniGallery__Thumbnail" src='/apartments/floorplans/4.3%20Bedroom%20%28large%29%20%E2%80%93%202%20Bathroom_hu7d234d36c5ab5e1d2b9f71b468f57401_537931_0x300_resize_box_2.png' />
-          <p class="MiniGallery__ThumbnailCaption">3 Bedroom (large) – 2 Bathroom</p>
-        </label>
-        <div class="MiniGallery__FullSize">
-          <img src="/apartments/floorplans/4.3%20Bedroom%20%28large%29%20%E2%80%93%202%20Bathroom.png" />
-          <label for="MiniGallery__FloorPlanGallery__Checkbox__3" class="Gallery__Close"></label>
+          <img src="/apartments/floorplans/3.3%20Bedroom%20%E2%80%93%202%20Bathroom.png" />
+          <label for="MiniGallery__FloorPlanGallery__Checkbox__2" class="MiniGallery__Close"></label>
         </div>
       </div>
     
@@ -267,12 +258,6 @@
 
 <p>Each residence at Sumerset has its own front door for maximum privacy and
 convenience, so you will never have to walk down a long corridor.</p>
-
-  <a href="/apply/" class="Button Button--Dark">
-    View Current Availability
-  </a>
-
-
 
       </div>
     </main><footer>
