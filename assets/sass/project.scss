@@ -1,0 +1,30 @@
+/*
+ * This is the entrypoint for defining project styles.
+ *
+ * This file is imported by the theme after defining variables so this file can
+ * override theme variables with appropiate project values.
+ *
+ * This file should be used to style classes named in the `/content` folder as
+ * those classes are not relevant to the theme.
+ *
+ * Project-specific shortcodes have their styles imported alongside their HTML.
+ */
+
+// Variable Definitions
+@import "fonts.scss";
+@import "variableOverrides.sass";
+
+// Classes used in the Content folder
+.FigureImage__Banner,
+.FigureImage__Logo {
+  margin: 1em 0;
+}
+.FigureImage__Banner img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.FigureImage__Logo img {
+  width: 100%;
+  object-fit: contain;
+}

@@ -9,8 +9,6 @@ menu:
 
 {{< figure src="/images/sumerset_logo.png" alt="Sumerset Logo" class="FigureImage__Logo" >}}
 
-{{< button text="View Current Availability" theme="Dark" link="/apply/" >}}
-
 **Sumerset Apartments --  Conveniently Located and Affordable**
 
 At Sumerset Apartments, you will find a perfect blend of convenience, affordability

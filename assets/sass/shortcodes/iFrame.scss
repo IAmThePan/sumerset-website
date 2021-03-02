@@ -1,0 +1,10 @@
+// iFrame Shortcode Styles
+// ToDo: Consider using a project-defined helper class.
+
+
+@import "../variables.sass";
+@import "../variableOverrides.sass";
+
+.IFrame--AddBorder {
+  border: 2px solid $primary-dark;
+}

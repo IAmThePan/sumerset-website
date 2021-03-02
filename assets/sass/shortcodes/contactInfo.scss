@@ -1,0 +1,20 @@
+// ContactInfo Shortcode Styles
+// ToDo: Consider using typography instead of custom classes/styles.
+
+@import "../variables.sass";
+@import "../variableOverrides.sass";
+
+.ContactInfo {
+  font-family: $font-family--headers;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: $primary-dark;
+  padding-bottom: 1em;
+}
+.ContactInfo--Normal,
+.ContactInfo--Normal a {
+  text-decoration: none;
+  color: $primary-dark;
+}
