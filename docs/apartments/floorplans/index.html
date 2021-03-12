@@ -194,63 +194,100 @@
 
 <div class="MainContent text-center">
         
-  
-  <style>.MiniGallery{display:flex;flex-wrap:wrap;justify-content:space-between}.MiniGallery__Item{flex:1 0 26%;margin:0 .5em 1em}.MiniGallery__Input{position:absolute;top:0;left:0;height:0;width:0;opacity:0;pointer-events:none}.MiniGallery__Label{display:block;padding:.25em}.MiniGallery__Thumbnail{height:125px}.MiniGallery__ThumbnailCaption{text-align:center;font-weight:600}.MiniGallery__FullSize{position:fixed;top:0;bottom:0;left:0;right:0;display:none;align-items:center;justify-content:center;background-color:rgba(249,246,231,.8)}.MiniGallery input:checked~.MiniGallery__FullSize{display:flex}.MiniGallery__FullSize img{max-height:96vh;max-width:96vw}.MiniGallery__Close{position:fixed;display:flex;justify-content:center;align-items:center;top:2vh;right:2vw;height:30px;width:30px;cursor:pointer}.MiniGallery__Close:before,.MiniGallery__Close:after{content:"";position:absolute;flex-shrink:0;height:2px;width:30px;background-color:#5c755e;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-ms-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear}.MiniGallery__Close:hover:before,.MiniGallery__Close:hover:after{background-color:#262626}.MiniGallery__Close:before{transform:rotate(45deg)}.MiniGallery__Close:after{transform:rotate(135deg)}@media(max-width:940px){.MiniGallery .MiniGallery__Item{flex-basis:51%}}</style>
 
 
-<div class="MiniGallery">
+
+  <style>.Gallery{display:flex;flex-wrap:wrap;justify-content:center}.Gallery__Input{position:absolute;top:0;left:0;height:0;width:0;opacity:0;pointer-events:none}.Gallery__Label{display:block;line-height:0;padding:.25em}.Gallery__Thumbnail{height:150px}.Gallery__Caption{text-align:center;font-weight:600}.Gallery__FullSize{position:fixed;top:0;bottom:0;left:0;right:0;display:none;align-items:center;justify-content:center;background-color:rgba(249,246,231,.8)}.Gallery input:checked~.Gallery__FullSize{display:flex}.Gallery__FullSize img{max-height:96vh;max-width:96vw}.Gallery__Previous,.Gallery__Next{position:fixed;top:0;bottom:0;left:0;right:0;display:flex;align-items:center;cursor:pointer}.Gallery__Previous{right:50%;justify-content:flex-start}.Gallery__Next{left:50%;justify-content:flex-end}.Gallery__Previous:before,.Gallery__Next:after{content:"";height:30px;width:30px;margin:2vh 2vw;border-bottom:2px solid #5c755e;border-left:2px solid #5c755e;-webkit-transition:border-color .2s linear;-moz-transition:border-color .2s linear;-ms-transition:border-color .2s linear;-o-transition:border-color .2s linear;transition:border-color .2s linear}.Gallery__Previous:hover:before,.Gallery__Next:hover:after{border-color:#262626}.Gallery__Previous:before{transform:rotate(45deg)}.Gallery__Next:after{transform:rotate(225deg)}.Gallery__Close{position:fixed;display:flex;justify-content:center;align-items:center;top:2vh;right:2vw;height:30px;width:30px;cursor:pointer}.Gallery__Close:before,.Gallery__Close:after{content:"";position:absolute;flex-shrink:0;height:2px;width:30px;background-color:#5c755e;-webkit-transition:background-color .2s linear;-moz-transition:background-color .2s linear;-ms-transition:background-color .2s linear;-o-transition:background-color .2s linear;transition:background-color .2s linear}.Gallery__Close:hover:before,.Gallery__Close:hover:after{background-color:#262626}.Gallery__Close:before{transform:rotate(45deg)}.Gallery__Close:after{transform:rotate(135deg)}</style>
+
+
+<div class="Gallery mini-gallery">
   
+  
+  
+
   
     
+    
+      
       
 
-      <div class="MiniGallery__Item">
-        <input type="checkbox" id="MiniGallery__FloorPlanGallery__Checkbox__0" name="MiniGallery__FloorPlanGallery" class="MiniGallery__Input" />
-        <label for="MiniGallery__FloorPlanGallery__Checkbox__0" class="MiniGallery__Label">
-          <img class="MiniGallery__Thumbnail" src='/apartments/floorplans/1.1%20Bedroom%20%E2%80%93%201%20Bathroom_hu18b9d77a69054114c7a1bb65614f6955_97021_0x300_resize_box_2.png' />
-          <p class="MiniGallery__ThumbnailCaption">1 Bedroom – 1 Bathroom</p>
+      
+      
+        
+      
+
+      
+      
+
+      <div class="Gallery__Item">
+        <input type="radio" id="Gallery__1__Radio__0" name="Gallery__1" class="Gallery__Input" />
+        <label for="Gallery__1__Radio__0" class="Gallery__Label">
+          <img class="Gallery__Thumbnail" src='/apartments/floorplans/images/1.1%20Bedroom%20%E2%80%93%201%20Bathroom_hu18b9d77a69054114c7a1bb65614f6955_97021_0x300_resize_box_2.png' />
+          <p class="Gallery__Caption">1 Bedroom – 1 Bathroom</p>
         </label>
-        <div class="MiniGallery__FullSize">
-          <img src="/apartments/floorplans/1.1%20Bedroom%20%E2%80%93%201%20Bathroom.png" />
-          <label for="MiniGallery__FloorPlanGallery__Checkbox__0" class="MiniGallery__Close"></label>
+        <div class="Gallery__FullSize">
+          <img src="/apartments/floorplans/images/1.1%20Bedroom%20%E2%80%93%201%20Bathroom.png" />
+          
+          <label for="Gallery__1__Radio__None" class="Gallery__Close"></label>
         </div>
       </div>
     
       
+      
 
-      <div class="MiniGallery__Item">
-        <input type="checkbox" id="MiniGallery__FloorPlanGallery__Checkbox__1" name="MiniGallery__FloorPlanGallery" class="MiniGallery__Input" />
-        <label for="MiniGallery__FloorPlanGallery__Checkbox__1" class="MiniGallery__Label">
-          <img class="MiniGallery__Thumbnail" src='/apartments/floorplans/2.2%20Bedroom%20%E2%80%93%202%20Bathroom_hubcf5a95f7fa2760922340a4c981aeb5e_122466_0x300_resize_box_2.png' />
-          <p class="MiniGallery__ThumbnailCaption">2 Bedroom – 2 Bathroom</p>
+      
+      
+
+      
+      
+
+      <div class="Gallery__Item">
+        <input type="radio" id="Gallery__1__Radio__1" name="Gallery__1" class="Gallery__Input" />
+        <label for="Gallery__1__Radio__1" class="Gallery__Label">
+          <img class="Gallery__Thumbnail" src='/apartments/floorplans/images/2.2%20Bedroom%20%E2%80%93%202%20Bathroom_hubcf5a95f7fa2760922340a4c981aeb5e_122466_0x300_resize_box_2.png' />
+          <p class="Gallery__Caption">2 Bedroom – 2 Bathroom</p>
         </label>
-        <div class="MiniGallery__FullSize">
-          <img src="/apartments/floorplans/2.2%20Bedroom%20%E2%80%93%202%20Bathroom.png" />
-          <label for="MiniGallery__FloorPlanGallery__Checkbox__1" class="MiniGallery__Close"></label>
+        <div class="Gallery__FullSize">
+          <img src="/apartments/floorplans/images/2.2%20Bedroom%20%E2%80%93%202%20Bathroom.png" />
+          
+          <label for="Gallery__1__Radio__None" class="Gallery__Close"></label>
         </div>
       </div>
     
       
+      
 
-      <div class="MiniGallery__Item">
-        <input type="checkbox" id="MiniGallery__FloorPlanGallery__Checkbox__2" name="MiniGallery__FloorPlanGallery" class="MiniGallery__Input" />
-        <label for="MiniGallery__FloorPlanGallery__Checkbox__2" class="MiniGallery__Label">
-          <img class="MiniGallery__Thumbnail" src='/apartments/floorplans/3.3%20Bedroom%20%E2%80%93%202%20Bathroom_hu9ad09d2652f0647ec93e9df0ef11457b_1152490_0x300_resize_box_2.png' />
-          <p class="MiniGallery__ThumbnailCaption">3 Bedroom – 2 Bathroom</p>
+      
+      
+
+      
+      
+        
+      
+
+      <div class="Gallery__Item">
+        <input type="radio" id="Gallery__1__Radio__2" name="Gallery__1" class="Gallery__Input" />
+        <label for="Gallery__1__Radio__2" class="Gallery__Label">
+          <img class="Gallery__Thumbnail" src='/apartments/floorplans/images/3.3%20Bedroom%20%E2%80%93%202%20Bathroom_hu9ad09d2652f0647ec93e9df0ef11457b_1152490_0x300_resize_box_2.png' />
+          <p class="Gallery__Caption">3 Bedroom – 2 Bathroom</p>
         </label>
-        <div class="MiniGallery__FullSize">
-          <img src="/apartments/floorplans/3.3%20Bedroom%20%E2%80%93%202%20Bathroom.png" />
-          <label for="MiniGallery__FloorPlanGallery__Checkbox__2" class="MiniGallery__Close"></label>
+        <div class="Gallery__FullSize">
+          <img src="/apartments/floorplans/images/3.3%20Bedroom%20%E2%80%93%202%20Bathroom.png" />
+          
+          <label for="Gallery__1__Radio__None" class="Gallery__Close"></label>
         </div>
       </div>
     
+    <input type="radio" id="Gallery__1__Radio__None" name="Gallery__1" class="Gallery__Input" />
     <script>
       document.addEventListener("keydown", e => {
-        const inputSelect = document.querySelector('input.MiniGallery__Input[name="MiniGallery__FloorPlanGallery"][type="checkbox"]:checked');
+        const inputNone = document.getElementById("Gallery__1__Radio__None");
         const { keyCode } = e;
         if (keyCode === 27) {
-          inputSelect.checked = false;
+          inputNone.checked = true;
         }
+
+        
       });
     </script>
   

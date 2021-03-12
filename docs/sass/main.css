@@ -276,6 +276,74 @@
   width: 100%;
   object-fit: contain; }
 
+.Gallery.mini-gallery .Gallery__Thumbnail {
+  height: 125px; }
+
+.Gallery.mini-gallery .Gallery__Item {
+  flex: 1 0 26%;
+  margin: 0 0.5em 1em; }
+
+@media (max-width: 940px) {
+  .Gallery.mini-gallery .Gallery__Item {
+    flex-basis: 51%; } }
+
+/* Main */
+.Main {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex; }
+
+.MainContent {
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-family: "EB Garamond", serif;
+  max-width: 1023px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #262626; }
+
+.MainContent hr {
+  border: none;
+  border-top: 1px solid #cecece;
+  margin: 32px 0; }
+
+.MainContent h1 {
+  font-family: "Nunito", sans-serif;
+  color: #262626;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 600; }
+
+.MainContent h2 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: #262626;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600; }
+
+.MainContent h3 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: #262626;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600; }
+
+.MainContent h3 a {
+  color: #a97d5d; }
+
+.MainContent h4 {
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  color: #262626;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600; }
+
 /* Header & Navigation Layouts */
 .SidebarNavigation {
   position: fixed;
@@ -571,62 +639,48 @@ footer {
   .SideMenu .SideMenu__CollapseInput:not(:checked) ~ .SideMenu__Content {
     display: none; } }
 
-/* Main */
-.Main {
-  max-width: 1024px;
-  margin: 0 auto;
-  display: flex; }
-
-.MainContent {
-  flex-grow: 1;
-  flex-shrink: 1;
-  font-family: "EB Garamond", serif;
-  max-width: 1023px;
-  margin: 0 auto;
-  padding: 1em 2em;
-  font-size: 18px;
-  line-height: 1.6em;
-  color: #262626; }
-
-.MainContent hr {
-  border: none;
-  border-top: 1px solid #cecece;
-  margin: 32px 0; }
-
-.MainContent h1 {
-  font-family: "Nunito", sans-serif;
-  color: #262626;
+/*
+ * This file defines variables used throughout this theme.
+ *
+ * All colors are defined as variables allowing changes to the theme with
+ * just a few overrides in the project `site.scss` file.
+ */
+/*
+ * This file contains project overrides for variables defined in the theme.
+ *
+ * Fonts are imported in `fonts.scss`; font-family variables are defined here.
+ *
+ * Colors were adapted from property documents and an online theme generator.
+ * Online Theme: https://www.colorcombos.com/color-schemes/79/ColorCombo79.html
+ */
+/* Buttons */
+.Button {
+  font-family: 'Nunito', sans-serif;
   text-transform: uppercase;
-  font-size: 26px;
-  font-weight: 600; }
-
-.MainContent h2 {
-  font-family: "Nunito", sans-serif;
+  text-decoration: none;
   text-align: center;
-  color: #262626;
-  text-transform: uppercase;
-  font-size: 22px;
-  font-weight: 600; }
-
-.MainContent h3 {
-  font-family: "Nunito", sans-serif;
-  text-align: center;
-  color: #262626;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 600; }
-
-.MainContent h3 a {
-  color: #a97d5d; }
-
-.MainContent h4 {
-  font-family: "Nunito", sans-serif;
+  line-height: 1.4em;
+  margin: 1em;
   display: inline-block;
-  white-space: nowrap;
-  color: #262626;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 600; }
+  cursor: pointer; }
+
+.Button.Button--Bold {
+  border: 2px solid #a97d5d;
+  border-radius: 300px; }
+
+.Button.Button--Bold:hover {
+  background-color: #a97d5d; }
+
+.Button.Button--Dark {
+  padding: 1em 2em;
+  color: #cecece;
+  background-color: #0b6947;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s linear; }
+
+.Button.Button--Dark:hover {
+  color: #f9f6e7; }
 
 /* CSS Only Tricks */
 .∆--hide {
@@ -676,10 +730,10 @@ a {
   justify-content: center; }
 
 .space-between {
-  justify-content: space-between; }
+  justify-content: space-between !important; }
 
 .space-around {
-  justify-content: space-around; }
+  justify-content: space-around !important; }
 
 .no-top-margin {
   margin-top: 0; }
