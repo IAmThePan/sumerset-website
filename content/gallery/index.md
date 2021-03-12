@@ -6,4 +6,4 @@ menu:
     weight: 300
 ---
 
-{{< gallery name="PropertyPhotos" >}}
+{{< gallery controls="true" >}}
