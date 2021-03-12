@@ -10,7 +10,7 @@ menu:
     weight: 100
 ---
 
-{{< gallery class="mini-gallery" captions="true" >}}
+{{< gallery isMini="true" captions="true" >}}
 
 Each residence at Sumerset has its own front door for maximum privacy and
 convenience, so you will never have to walk down a long corridor.

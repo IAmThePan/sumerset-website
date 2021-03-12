@@ -276,17 +276,6 @@
   width: 100%;
   object-fit: contain; }
 
-.Gallery.mini-gallery .Gallery__Thumbnail {
-  height: 125px; }
-
-.Gallery.mini-gallery .Gallery__Item {
-  flex: 1 0 26%;
-  margin: 0 0.5em 1em; }
-
-@media (max-width: 940px) {
-  .Gallery.mini-gallery .Gallery__Item {
-    flex-basis: 51%; } }
-
 /* Main */
 .Main {
   max-width: 1024px;
