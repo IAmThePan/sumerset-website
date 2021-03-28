@@ -1,7 +1,7 @@
 ---
 title: "Contact Us"
 date: 2021-01-04T09:51:11-05:00
-headerLinkClass: "Button Button--Bold"
+headerLinkClass: "Button Button--Secondary Button--Rounded"
 menu:
   header:
     weight: 600

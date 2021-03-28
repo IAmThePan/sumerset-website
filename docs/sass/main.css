@@ -644,32 +644,64 @@ footer {
  */
 /* Buttons */
 .Button {
-  font-family: 'Nunito', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  line-height: 1.4em;
-  margin: 1em;
   display: inline-block;
-  cursor: pointer; }
-
-.Button.Button--Bold {
-  border: 2px solid #a97d5d;
-  border-radius: 300px; }
-
-.Button.Button--Bold:hover {
-  background-color: #a97d5d; }
-
-.Button.Button--Dark {
-  padding: 1em 2em;
-  color: #cecece;
-  background-color: #0b6947;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
   font-weight: 600;
+  line-height: 1.4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 1em;
+  padding: 1em 2em;
+  cursor: pointer;
+  color: #5c755e;
+  border: 2px solid #5c755e;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
+  .Button:hover {
+    color: #262626;
+    border-color: #262626; }
 
-.Button.Button--Dark:hover {
-  color: #f9f6e7; }
+.Button.Button--Rounded {
+  border-radius: 300px; }
+
+.Button.Button--Solid {
+  color: #f9f6e7;
+  background-color: #5c755e; }
+  .Button.Button--Solid:hover {
+    color: #f9f6e7;
+    background-color: #262626; }
+
+.Button.Button--Primary {
+  color: #0b6947;
+  border-color: #0b6947; }
+  .Button.Button--Primary:hover {
+    color: #f9f6e7;
+    background-color: #0b6947; }
+  .Button.Button--Primary.Button--Solid {
+    color: rgba(249, 246, 231, 0.7);
+    background-color: #0b6947; }
+    .Button.Button--Primary.Button--Solid:hover {
+      color: #f9f6e7;
+      background-color: #0b6947; }
+
+.Button.Button--Secondary {
+  color: #a97d5d;
+  border-color: #a97d5d; }
+  .Button.Button--Secondary:hover {
+    color: #f9f6e7;
+    background-color: #a97d5d; }
+  .Button.Button--Secondary.Button--Solid {
+    color: rgba(249, 246, 231, 0.7);
+    background-color: #a97d5d; }
+    .Button.Button--Secondary.Button--Solid:hover {
+      color: #f9f6e7;
+      background-color: #a97d5d; }
 
 /* CSS Only Tricks */
 .∆--hide {
@@ -701,6 +733,10 @@ a {
 
 .text-italic {
   font-style: italic; }
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word; }
 
 .center-next + * {
   text-align: center; }

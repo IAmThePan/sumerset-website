@@ -10,7 +10,7 @@ publishDir = "docs"
 [params.property]
   name = "Sumerset Apartments"
   phone = "407.645.0787"
-  email = "sumersetapartmentS@gmail.com"
+  email = "sumersetapartments@gmail.com"
 [params.property.address]
   line1 = "1051 Lee Road"
   line2 = "Orlando, Florida 32810"

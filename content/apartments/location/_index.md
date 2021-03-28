@@ -13,7 +13,7 @@ menu:
 
 {{< contactInfo >}}
 
-{{< iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDU3vr9H2kUSnkmkvgWmxSNNl60NbV8U9Q&q=Sumerset%20Apartments%20Orlando%20Florida&zoom=14" height="500px" width="100%" >}}
+{{< iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDU3vr9H2kUSnkmkvgWmxSNNl60NbV8U9Q&q=Sumerset%20Apartments%20Orlando%20Florida&zoom=15" height="500px" width="100%" >}}
 
 Orlando is a special place, and Sumerset Apartments puts you close to the action.
 Located right on Lee Road, it’s just minutes from downtown and Universal. And with
