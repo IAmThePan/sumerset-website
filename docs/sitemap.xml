@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://sumersetapartments.com/media/tours/</loc>
+    <lastmod>2021-01-04T09:51:11-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sumersetapartments.com/apartments/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
   </url>
@@ -23,7 +28,12 @@
   </url>
   
   <url>
-    <loc>https://sumersetapartments.com/gallery/</loc>
+    <loc>https://sumersetapartments.com/media/</loc>
+    <lastmod>2021-01-04T09:51:11-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sumersetapartments.com/media/gallery/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
   </url>
   
