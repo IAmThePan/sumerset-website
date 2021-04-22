@@ -281,6 +281,11 @@ table.FloorPlans__Table {
   margin: 0 auto;
   text-align: left; }
 
+@media (max-width: 940px) {
+  table.FloorPlans__Table {
+    width: 100%;
+    text-align: center; } }
+
 /* Main */
 .Main {
   max-width: 1024px;

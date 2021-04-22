@@ -35,3 +35,10 @@ table.FloorPlans__Table {
   margin: 0 auto;
   text-align: left;
 }
+
+@media (max-width: $breakpoint--content) {
+  table.FloorPlans__Table {
+    width: 100%;
+    text-align: center;
+  }
+}
