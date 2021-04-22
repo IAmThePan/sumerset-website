@@ -276,6 +276,11 @@
   width: 100%;
   object-fit: contain; }
 
+table.FloorPlans__Table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left; }
+
 /* Main */
 .Main {
   max-width: 1024px;

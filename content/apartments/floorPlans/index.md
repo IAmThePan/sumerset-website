@@ -2,6 +2,7 @@
 title: "Floor Plans"
 date: 2021-01-04T09:50:24-05:00
 mainClass: "text-center"
+markup: mmark
 menu:
   header:
     parent: "Apartments"
@@ -11,6 +12,15 @@ menu:
 ---
 
 {{< gallery isMini="true" captions="true" >}}
+
+{.FloorPlans__Table}
+| Apartment Type | Size | Monthly Rent |
+| --- | --- | --- |
+| 1 Bedroom – 1 Bathroom | 780 SqFt | $738.00 |
+| 2 Bedroom – 2 Bathroom | 1088 SqFt | $929.00 |
+| 3 Bedroom – 2 Bathroom | 1088 SqFt | $1020.00 |
+
+
 
 Each residence at Sumerset has its own front door for maximum privacy and
 convenience, so you will never have to walk down a long corridor.
