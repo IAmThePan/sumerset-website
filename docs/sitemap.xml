@@ -1,58 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sumersetapartments.com/</loc>
     <lastmod>2021-01-05T13:01:57-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/media/tours/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/apartments/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/apartments/community/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/contact/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/media/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/media/gallery/</loc>
     <lastmod>2021-01-04T09:51:11-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/apartments/location/</loc>
     <lastmod>2021-01-04T09:51:07-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/apartments/floorplans/</loc>
     <lastmod>2021-01-04T09:50:24-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sumersetapartments.com/tags/</loc>
   </url>
-  
 </urlset>
