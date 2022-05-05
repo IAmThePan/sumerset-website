@@ -16,9 +16,9 @@ menu:
 {.FloorPlans__Table}
 | Apartment Type | Size | Monthly Rent |
 | --- | --- | --- |
-| 1 Bedroom – 1 Bathroom | 780 SqFt | $783.00 |
-| 2 Bedroom – 2 Bathroom | 1088 SqFt | $929.00 |
-| 3 Bedroom – 2 Bathroom | 1088 SqFt | $1020.00 |
+| 1 Bedroom – 1 Bathroom | 780 SqFt | $847.00 |
+| 2 Bedroom – 2 Bathroom | 1088 SqFt | $1006.00 |
+| 3 Bedroom – 2 Bathroom | 1088 SqFt | $1100.00 |
 
 
 
