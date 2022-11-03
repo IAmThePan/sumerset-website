@@ -286,6 +286,18 @@ table.FloorPlans__Table {
     width: 100%;
     text-align: center; } }
 
+.HelpSection ~ p {
+  margin: 0.75em 0; }
+
+.HelpSection ~ p a {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  color: #a97d5d; }
+
 /* Main */
 .Main {
   max-width: 1024px;

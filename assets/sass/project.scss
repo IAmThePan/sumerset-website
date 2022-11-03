@@ -42,3 +42,19 @@ table.FloorPlans__Table {
     text-align: center;
   }
 }
+
+// Classes used in Resident Portal
+
+.HelpSection ~ p {
+  margin: 0.75em 0;
+}
+.HelpSection ~ p a {
+  font-family: $font-family--headers;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  color: $secondary-color;
+}
+
