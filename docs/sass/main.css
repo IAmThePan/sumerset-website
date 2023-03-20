@@ -296,7 +296,7 @@ table.FloorPlans__Table {
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 1.2em;
-  color: #a97d5d; }
+  color: #9B9365; }
 
 /* Main */
 .Main {
@@ -313,7 +313,7 @@ table.FloorPlans__Table {
   padding: 1em 2em;
   font-size: 18px;
   line-height: 1.6em;
-  color: #262626; }
+  color: #3B6BA6; }
 
 .MainContent hr {
   border: none;
@@ -322,7 +322,7 @@ table.FloorPlans__Table {
 
 .MainContent h1 {
   font-family: "Nunito", sans-serif;
-  color: #262626;
+  color: #3B6BA6;
   text-transform: uppercase;
   font-size: 26px;
   font-weight: 600; }
@@ -330,7 +330,7 @@ table.FloorPlans__Table {
 .MainContent h2 {
   font-family: "Nunito", sans-serif;
   text-align: center;
-  color: #262626;
+  color: #3B6BA6;
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 600; }
@@ -338,19 +338,19 @@ table.FloorPlans__Table {
 .MainContent h3 {
   font-family: "Nunito", sans-serif;
   text-align: center;
-  color: #262626;
+  color: #3B6BA6;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600; }
 
 .MainContent h3 a {
-  color: #a97d5d; }
+  color: #9B9365; }
 
 .MainContent h4 {
   font-family: "Nunito", sans-serif;
   display: inline-block;
   white-space: nowrap;
-  color: #262626;
+  color: #3B6BA6;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600; }
@@ -362,7 +362,7 @@ table.FloorPlans__Table {
   right: 0;
   height: 100vh;
   width: 0px;
-  background-color: #0b6947;
+  background-color: #4A86CF;
   -webkit-transition: width 0.2s linear;
   -moz-transition: width 0.2s linear;
   -ms-transition: width 0.2s linear;
@@ -393,13 +393,13 @@ header {
   padding: 20px 0;
   width: 100vw;
   color: #f9f6e7;
-  background-color: #0b6947; }
+  background-color: #4A86CF; }
   header.Header--Extended {
     height: 325px;
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(11, 105, 71, 0.2); }
+    background-color: rgba(74, 134, 207, 0.2); }
   header .HeaderContent {
     display: flex;
     justify-content: space-between;
@@ -416,7 +416,7 @@ header {
         text-align: center;
         letter-spacing: 2px;
         color: #f9f6e7;
-        text-shadow: 1px 1px #0b6947;
+        text-shadow: 1px 1px #4A86CF;
         margin: 0;
         padding-top: 0;
         padding-bottom: 0; }
@@ -488,7 +488,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 0;
     color: #cecece;
-    text-shadow: 1px 1px #0b6947;
+    text-shadow: 1px 1px #4A86CF;
     margin: 0;
     padding: 0.5em 0.75em;
     white-space: nowrap;
@@ -538,7 +538,7 @@ header {
     max-height: 0;
     overflow: hidden;
     color: rgba(255, 255, 255, 0);
-    background-color: #0b6947;
+    background-color: #4A86CF;
     line-height: 2em;
     -webkit-transition: max-height 0.2s linear;
     -moz-transition: max-height 0.2s linear;
@@ -573,7 +573,7 @@ footer {
   font-family: "Nunito", sans-serif;
   margin-top: 4em;
   padding: 2em;
-  background-color: #0b6947; }
+  background-color: #4A86CF; }
 
 .FooterContent {
   max-width: 1024px;
@@ -605,7 +605,7 @@ footer {
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 400;
-  color: #a97d5d;
+  color: #9B9365;
   line-height: 1.6em; }
 
 .SideMenu .SideMenu__Page {
@@ -617,7 +617,7 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.8em;
-  color: #5c755e;
+  color: #04395E;
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
   -ms-transition: color 0.2s linear;
@@ -626,14 +626,14 @@ footer {
 
 .SideMenu .SideMenu__Page:hover,
 .SideMenu .SideMenu__Page.SideMenu--Active {
-  color: #0b6947; }
+  color: #4A86CF; }
 
 .SideMenu .SideMenu__CollapseInput,
 .SideMenu .SideMenu__CollapseLabel,
 .SideMenu .SideMenu__ButtonOpen,
 .SideMenu .SideMenu__ButtonClose {
   display: none;
-  color: #262626; }
+  color: #3B6BA6; }
 
 @media (max-width: 940px) {
   .Main {
@@ -677,8 +677,8 @@ footer {
   margin: 1em;
   padding: 1em 2em;
   cursor: pointer;
-  color: #5c755e;
-  border: 2px solid #5c755e;
+  color: #04395E;
+  border: 2px solid #04395E;
   border-radius: 3px;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -686,44 +686,44 @@ footer {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear; }
   .Button:hover {
-    color: #262626;
-    border-color: #262626; }
+    color: #3B6BA6;
+    border-color: #3B6BA6; }
 
 .Button.Button--Rounded {
   border-radius: 300px; }
 
 .Button.Button--Solid {
   color: #f9f6e7;
-  background-color: #5c755e; }
+  background-color: #04395E; }
   .Button.Button--Solid:hover {
     color: #f9f6e7;
-    background-color: #262626; }
+    background-color: #3B6BA6; }
 
 .Button.Button--Primary {
-  color: #0b6947;
-  border-color: #0b6947; }
+  color: #4A86CF;
+  border-color: #4A86CF; }
   .Button.Button--Primary:hover {
     color: #f9f6e7;
-    background-color: #0b6947; }
+    background-color: #4A86CF; }
   .Button.Button--Primary.Button--Solid {
     color: rgba(249, 246, 231, 0.7);
-    background-color: #0b6947; }
+    background-color: #4A86CF; }
     .Button.Button--Primary.Button--Solid:hover {
       color: #f9f6e7;
-      background-color: #0b6947; }
+      background-color: #4A86CF; }
 
 .Button.Button--Secondary {
-  color: #a97d5d;
-  border-color: #a97d5d; }
+  color: #9B9365;
+  border-color: #9B9365; }
   .Button.Button--Secondary:hover {
     color: #f9f6e7;
-    background-color: #a97d5d; }
+    background-color: #9B9365; }
   .Button.Button--Secondary.Button--Solid {
     color: rgba(249, 246, 231, 0.7);
-    background-color: #a97d5d; }
+    background-color: #9B9365; }
     .Button.Button--Secondary.Button--Solid:hover {
       color: #f9f6e7;
-      background-color: #a97d5d; }
+      background-color: #9B9365; }
 
 /* CSS Only Tricks */
 .∆--hide {
