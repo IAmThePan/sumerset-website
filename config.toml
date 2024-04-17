@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Sumerset Apartments Orlando, FL"
 theme = "tricky-triangles"
 publishDir = "docs"
+googleAnalytics = "G-4YP5YZ7VH1"
 
 [params]
   image = "images/Sumerset.jpg"
